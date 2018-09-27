@@ -11,14 +11,14 @@
     "testonly": "jest --verbose --bail -i",
     "test": "npm run lint && npm run testonly"
   },
-  "repository": "git@github.com:zeit/micro-proxy.git",
+  "repository": "git@github.com:SlidesWorker/micro-proxy.git",
   "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "dependencies": {
     "arg": "^1.0.0",
     "micro": "^9.0.2",
-    "node-fetch": "^1.7.3",
+    "node-fetch": "^2.2.0",
     "ws": "^3.3.2"
   },
   "engines": {
